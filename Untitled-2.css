@@ -1,0 +1,259 @@
+* {
+    margin: 0;
+    padding:0;
+}
+/* navber */
+header{
+    height: auto;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+nav{
+    background-color: #f38e59;
+    
+}
+.container{
+        display: flex;
+    justify-content: space-around;
+}
+ul {
+    list-style-type: none;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(236, 236, 247);
+}
+.list1{
+    width: 60%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.list2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn1{
+    margin-left: 30px;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-style: solid;
+    border:solid 1px rgb(0, 0, 0);
+    border-radius: 5px;
+    font-family: proxima-nova, sans-serif;
+    
+}
+.btn2{
+    background-color: #f38e59;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border:solid 1px rgb(255, 255, 255);
+    border-radius: 5px;
+    margin-left: 10px;
+    
+    
+}
+/* main1 left */
+
+.around{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section1{
+    text-align: center;
+    padding: 5%;
+    background-color: #f38e59;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    
+}
+
+.title1{
+    color: white;
+    margin: 43px;
+    font-size: 60px;
+    
+}
+#opacity{
+    opacity: 0.;
+}
+
+.main1{
+
+    width: 50%;
+    margin-left: 90px;
+    margin: 90px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+
+.selection{
+    display: flex;
+    
+
+}
+textarea{
+    resize: none;
+}
+ .to {
+    display: flex;
+    flex-direction: column;
+    height: 40px;
+    width: 550px;
+    background: #FFFFFF;
+    border: 1px solid #ACACAD;
+    margin-top: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: solid;
+    border-radius: 7px;
+    opacity: 0.7;
+    font:"proxima-nova";
+ }
+ #msg{
+    height: 80Px;
+ }
+ 
+ .SUBMIT{
+    position: absolute;
+    width: 153px;
+    height: 50px; 
+    background: #F08A51;
+    border-radius: 5px;
+    left: 700px;
+    top: 1030px;
+    border-style: hidden;
+    color: lavender;
+    opacity: 0.8;
+}
+
+/* main2 right */
+
+i { margin-top: 30px;
+color: #f1a47b;
+font-size: 60px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cont {
+        flex:1 1 200px;
+        column-gap: 100px;
+        margin: 50px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        
+}
+.cont a{
+        list-style-type: none;
+        text-decoration: none;
+        
+}
+    
+    
+.art{
+        padding-left:67px;
+        margin-top:-60px ;
+    }
+article a {
+         color: #eb9c71;
+         opacity: 0.7;
+}
+
+p a {
+         color: #eb9c71;
+         
+}
+
+h2{
+         color: #5BB5DE;
+}
+.leftside{
+    
+         
+         margin-top: 40px;
+}
+
+
+
+
+
+
+/* footer */
+footer {
+    background-color: #404040;
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 30px 60px 60px 60PX;
+    justify-content: space-around;
+    
+}
+.inside{
+    color:#FFFFFF;
+    
+
+}
+.ins {
+    color: #999090;
+    text-decoration: none;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 13px;
+    margin-left: 30px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+ ul li {
+    list-style-type: none;
+    
+    font-size: 16px;
+
+}
+
+.threeicons{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1px;
+    
+    
+    
+
+}
+
+.btn3{
+    border: 0;
+    font-size: 12px;
+    padding: 15px ;
+    border-radius: 10px ;
+    line-height: 1.5;
+    background:  #02202F;
+    color: #FFFBFB;
+    margin-top: 5px;
+    width: 100%;
+
+}
+.last{
+    background-color: #333333;
+    color: #FFFFFF;
+    padding: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-around;
+
+
+}
+#p9{
+    margin-left: 70px;
+    margin-left: 140px;
+    
+}
+span{
+    color: #F08A51;
+}
